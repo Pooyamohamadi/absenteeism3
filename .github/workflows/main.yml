@@ -16,4 +16,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HUGGINGFACE_TEST }}
-        run: git push --force https://pooyam:$HUGGINGFACE_TEST@huggingface.co/spaces/pooyamm/absenteeism3 main
+        run: git push --force https://pooyam:$HF_TOKEN@huggingface.co/spaces/pooyamm/absenteeism3 main
